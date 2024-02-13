@@ -43,7 +43,7 @@ class _SearchState extends State<Search> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        margin: EdgeInsets.only(top: 50.0),
+        margin: const EdgeInsets.only(top: 50.0),
         child: Column(
           children: [
             Center(
@@ -89,11 +89,11 @@ class _SearchState extends State<Search> {
 
                         });
                       },
-                      child: Icon(
+                      child: const Icon(
                         Icons.close,
                         color: Colors.black,
                       ),
-                    ) : Icon(
+                    ) : const Icon(
                       Icons.search_outlined,
                       color: Colors.black,
                     ),
